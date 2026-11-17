@@ -1,0 +1,40 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "tickmark-agent"
+version = "1.0.0"
+description = "Automatic bank reconciliation agent built on LangGraph and LangChain"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+  "langgraph>=1.2,<2",
+  "langchain>=1.4,<2",
+  "langchain-google-genai>=4.4,<5",
+  "langchain-anthropic>=1.7,<2",
+  "pydantic>=2.7",
+  "rapidfuzz>=3.9",
+  "pdfplumber>=0.11",
+  "openpyxl>=3.1",
+  "python-dotenv>=1.0",
+  "fastapi>=0.115",
+  "uvicorn>=0.30",
+  "python-multipart>=0.0.9",
+]
+
+[project.optional-dependencies]
+openai = ["langchain-openai>=1.0"]
+dev = ["pytest>=8"]
+
+[project.scripts]
+tickmark = "tickmark.cli:main"
+
+[tool.setuptools.packages.find]
+include = ["tickmark*"]
+
+[tool.setuptools.package-data]
+tickmark = ["ui/static/*.html"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

@@ -1,0 +1,21 @@
+Date,Type,Number,Name,Memo,Amount,Open Balance
+18/09/2026,Invoice,INV-2033,Greenleaf Organic Foods Inc,Produce boxes Sep wk3,2150.00,2150.00
+20/09/2026,Invoice,INV-2035,Quantum Retail Ltd,Shelving units,2500.00,2500.00
+22/09/2026,Invoice,INV-2036,MacKenzie and Sons LLC,Packaging,1960.00,1960.00
+24/09/2026,Invoice,INV-2038,Greenleaf Organic Foods Inc,Produce boxes Sep wk4,3480.00,3480.00
+25/09/2026,Invoice,INV-2039,Nordic Design AB,Display fixtures,3200.00,3200.00
+25/09/2026,Bill,BILL-5521,OfficeMax Supply Co,Office supplies,842.17,842.17
+27/09/2026,Invoice,INV-2040,Atlas Engineering Pty Ltd,Steel brackets,1850.00,1850.00
+28/09/2026,Invoice,INV-2041,Bluewater Logistics Ltd,Pallet wrap,4250.00,4250.00
+30/09/2026,Invoice,INV-2042,Cedar Point Dental,Sterile supplies,1275.00,1275.00
+01/10/2026,Invoice,INV-2043,Quantum Retail Ltd,Checkout counters,4100.00,4100.00
+01/10/2026,Bill,BILL-5524,Harbor Properties LLC,October rent,3500.00,3500.00
+02/10/2026,Invoice,INV-2044,Greenleaf Organic Foods Inc,Produce boxes Oct wk1,2200.00,2200.00
+05/10/2026,Cheque payment,318,Patel Electrical,Cheque 318 - warehouse wiring repairs,2600.00,
+05/10/2026,Invoice,INV-2045,Lumen Studio,Photo backdrops,900.00,900.00
+06/10/2026,Invoice,INV-2046,Orchard Vet Clinic,Storage bins,900.00,900.00
+07/10/2026,Invoice,INV-2047,Sunrise Hotels Group,Lobby furniture,12400.00,12400.00
+10/10/2026,Bill,BILL-5527,Metro Power & Light,Electricity Sep,412.60,412.60
+15/10/2026,Bill,BILL-5530,Adobe Systems Inc,Creative Cloud Oct,59.99,59.99
+20/10/2026,Invoice,INV-2048,Bluewater Logistics Ltd,Stretch film,1100.00,1100.00
+31/10/2026,Receipt,DEP-1031,,Cash sales deposit,1420.00,

@@ -1,0 +1,26 @@
+# Environment variables (NEVER COMMIT SENSITIVE KEYS)
+.env
+.env.local
+.env.*.local
+
+# Python cache & virtual environment
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.venv/
+env/
+venv/
+ENV/
+
+# Application storage & runs
+.tickmark/
+tickmark_output/
+out/
+
+# Testing
+.pytest_cache/
+
+# Archives and backup folders
+*.zip
+tickmark-agent/
